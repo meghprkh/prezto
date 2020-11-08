@@ -11,3 +11,10 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+# All aliases and functions
+source ~/.bash_megh
+
+autoload -Uz promptinit
+promptinit
+prompt kylewest
