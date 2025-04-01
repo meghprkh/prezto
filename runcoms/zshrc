@@ -11,3 +11,12 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+# All aliases and functions
+source ~/.bash_megh
+
+# options
+unsetopt PUSHD_TO_HOME
+
+# starship prompt
+eval "$(starship init zsh)"
